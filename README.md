@@ -34,7 +34,7 @@ Port,Protocol,Count
 ## How to run?
 
 - You need to have a python interpretor installed on your system. I have used `3.13.1` for this application. Use `pyenv` to install `3.13.1`.
-- After installing the python interpretor. Makesure you have this files in the same folder as `parser.py`.
+- After installing the python interpretor. Make sure you have this files in the same folder as `parser.py`.
     * log.txt - which contains the logs.
     * lookup.csv - which contains the lookup data.
     * output.txt - We will print our output in this file.
