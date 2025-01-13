@@ -62,13 +62,13 @@ def write_output(tag_counts, port_protocol_counts, output_file):
             f.write(f"{port},{protocol},{count}\n")
 
 def get_protocol_name(decimal_proto: int):
-    """_summary_
+    """Protocol name from the decimal value of that protocol.
 
     Args:
-        decimal_proto (int): _description_
+        decimal_proto (int): IANA decimal values.
 
     Returns:
-        _type_: _description_
+        str: name of the protocol
     """       
     prefix = "IPPROTO_"
     table = {num:name[len(prefix):] 
