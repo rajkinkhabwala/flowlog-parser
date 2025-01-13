@@ -12,7 +12,6 @@ def parse_lookup_table(file_path: str):
     with open(file_path, 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            # print(row)
             port = row['dstport'].strip()
             protocol = row['protocol'].strip().lower()
             tag = row['tag'].strip()
